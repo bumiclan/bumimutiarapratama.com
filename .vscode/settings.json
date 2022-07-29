@@ -1,5 +1,9 @@
 {
   "css.customData": [
     ".vscode/tailwindcss.json"
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
 }

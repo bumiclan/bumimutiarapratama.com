@@ -7,5 +7,4 @@
   <div>PT. BUMI MUTIARA PRATAMA</div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
