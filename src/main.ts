@@ -1,5 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import './index.css';
+import './assets/scss/tailwind.scss';
+import router from './router';
+import MasonryWall from '@yeger/vue-masonry-wall';
 
-createApp(App).mount('#app');
+createApp(App).use(router).use(MasonryWall).mount('#app');

@@ -4,7 +4,5 @@
 </script>
 
 <template>
-  <div>PT. BUMI MUTIARA PRATAMA</div>
+  <router-view />
 </template>
-
-<style scoped></style>
