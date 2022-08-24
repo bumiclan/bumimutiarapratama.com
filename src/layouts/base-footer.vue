@@ -62,11 +62,11 @@
                       <span>082142221735</span>
                     </a>
                     <a
-                      href="tel:+62315618881"
+                      href="tel:+62315618880"
                       class="flex items-center space-x-1 text-gray-300 duration-500 ease-in-out hover:text-gray-400"
                     >
                       <PhoneIcon class="h-6 w-6 text-white" />
-                      <span>0315618881</span>
+                      <span>0315618880</span>
                     </a>
                   </li>
                 </ul>
