@@ -13,7 +13,9 @@
           class="hidden dark:inline-block"
           alt=""
         />
-        <span class="ml-4 pt-4">PT. Bumi Mutiara Pratama </span>
+        <span class="ml-4 pt-4 text-sm md:text-lg">
+          PT. Bumi Mutiara Pratama
+        </span>
       </a>
 
       <!-- End Logo container-->
@@ -35,20 +37,30 @@
         <!-- Navigation Menu-->
         <ul class="navigation-menu">
           <li>
-            <router-link to="/#home" class="sub-menu-item"> Home </router-link>
+            <router-link to="/#home" class="sub-menu-item" @click="toggleMenu">
+              Home
+            </router-link>
           </li>
           <li>
-            <router-link to="/#about" class="sub-menu-item">
+            <router-link to="/#about" class="sub-menu-item" @click="toggleMenu">
               About
             </router-link>
           </li>
           <li>
-            <router-link to="/#portfolio" class="sub-menu-item">
+            <router-link
+              to="/#portfolio"
+              class="sub-menu-item"
+              @click="toggleMenu"
+            >
               Portfolio
             </router-link>
           </li>
           <li>
-            <router-link to="/#footer" class="sub-menu-item">
+            <router-link
+              to="/#footer"
+              class="sub-menu-item"
+              @click="toggleMenu"
+            >
               Contact
             </router-link>
           </li>
