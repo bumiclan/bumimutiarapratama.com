@@ -4,5 +4,6 @@
 </script>
 
 <template>
-  <router-view />
+  <div>This website under construction</div>
+  <!-- <router-view /> -->
 </template>
