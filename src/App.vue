@@ -4,6 +4,6 @@
 </script>
 
 <template>
-  <div>This website under construction</div>
-  <!-- <router-view /> -->
+  <!-- <div>This website under construction</div> -->
+  <router-view />
 </template>
