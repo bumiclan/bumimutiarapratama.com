@@ -75,26 +75,44 @@
     <!--end grid-->
 
     <div class="mt-8 grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-4">
-      <router-link
-        v-for="portfolio in portfolios"
-        :key="portfolio.name"
-        :to="`portfolio/${portfolio.link}`"
-        class="group overflow-hidden rounded-md bg-white shadow-sm duration-500 ease-in-out hover:shadow-xl dark:bg-slate-900 dark:shadow-gray-800 dark:hover:shadow-xl dark:hover:shadow-gray-700"
-      >
-        <div class="relative">
-          <img :src="portfolio.thumbnail" :alt="portfolio.name" />
-        </div>
+      <template v-for="portfolio in portfolios" :key="portfolio.name">
+        <router-link
+          v-if="portfolio.link"
+          :to="`portfolio/${portfolio.link}`"
+          class="group overflow-hidden rounded-md bg-white shadow-sm duration-500 ease-in-out hover:shadow-xl dark:bg-slate-900 dark:shadow-gray-800 dark:hover:shadow-xl dark:hover:shadow-gray-700"
+        >
+          <div class="relative">
+            <img :src="portfolio.thumbnail" :alt="portfolio.name" />
+          </div>
 
-        <div class="p-6">
-          <div class="text-center">
-            <div
-              class="font-poppins duration-500 ease-in-out hover:text-indigo-600"
-            >
-              {{ portfolio.name }}
+          <div class="p-6">
+            <div class="text-center">
+              <div
+                class="font-poppins duration-500 ease-in-out hover:text-indigo-600"
+              >
+                {{ portfolio.name }}
+              </div>
+            </div>
+          </div>
+        </router-link>
+        <div v-else
+          class="group overflow-hidden rounded-md bg-white shadow-sm duration-500 ease-in-out hover:shadow-xl dark:bg-slate-900 dark:shadow-gray-800 dark:hover:shadow-xl dark:hover:shadow-gray-700"
+        >
+          <div class="relative">
+            <img :src="portfolio.thumbnail" :alt="portfolio.name" />
+          </div>
+
+          <div class="p-6">
+            <div class="text-center">
+              <div
+                class="font-poppins duration-500 ease-in-out hover:text-indigo-600"
+              >
+                {{ portfolio.name }}
+              </div>
             </div>
           </div>
         </div>
-      </router-link>
+      </template>
       <!--end property content-->
     </div>
     <!--en grid-->
@@ -103,6 +121,21 @@
 
   <br />
   <br />
+  <a
+    href="https://wa.me/6282226115758"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="fixed bottom-4 right-4 z-99999 bg-[#25D366] rounded-full py-2 px-4"
+  >
+    <div class="flex items-center gap-1">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp"
+        class="w-6 h-6"
+      /> 
+      <span>contact us</span>
+    </div>
+  </a>
 </template>
 
 <script setup lang="ts">
@@ -117,7 +150,7 @@ const portfolios = [
       '/assets/images/portfolio/pergudangan/pt-niramas-pandaan-sejahtera/thumbnail.jpg',
   },
   {
-    name: 'PT. BUMI JAYA INDO',
+    name: 'PT. BUMI INDO JAYA',
     link: 'pt-bumi-indo-jaya',
     thumbnail:
       '/assets/images/portfolio/pergudangan/pt-bumi-indo-jaya/thumbnail.jpg',
@@ -134,11 +167,35 @@ const portfolios = [
     thumbnail:
       '/assets/images/portfolio/perumahan/bale-kecandran-hills/thumbnail.jpg',
   },
+  {
+    name: 'CV. DUA SAUDARA SUKSES',
+    link: '',
+    thumbnail:
+      '/assets/images/portfolio/pergudangan/cv-dua-saudara-sukses/thumbnail.jpg',
+  },
+  {
+    name: 'CV.TATA BUMI BERSAMA',
+    link: '',
+    thumbnail:
+      '/assets/images/portfolio/pergudangan/cv-tata-bumi-bersama/thumbnail.jpg',
+  },
+  {
+    name: 'PT. BINA INSAN MANDIRI',
+    link: '',
+    thumbnail:
+      '/assets/images/portfolio/pergudangan/pt-bina-insan-mandiri/thumbnail.jpg',
+  },
+  {
+    name: 'PT.BUMI INDO',
+    link: '',
+    thumbnail:
+      '/assets/images/portfolio/pergudangan/pt-bumi-indo/thumbnail.jpg',
+  },
 ];
 
 onMounted(() => {
   easy_background('#home', {
-    slide: ['/assets/images/home/02.jpg', '/assets/images/home/01.png'],
+    slide: ['/assets/images/home/hero-1.jpg', '/assets/images/home/hero-2.jpg'],
     delay: [5000, 5000],
   });
 });

@@ -2,7 +2,7 @@
   <!-- Footer Start -->
   <footer
     id="footer"
-    class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200"
+    class="footer bg-dark-footer text-gray-200 dark:text-gray-200"
   >
     <div class="container">
       <div class="grid grid-cols-12">
