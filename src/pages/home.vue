@@ -40,18 +40,13 @@
           PT. Bumi Mutiara Pratama
         </h4>
         <p class="text-slate-500">
-          Kami bergerak di bidang pembangunan pembangunan seperti Proyek Gedung
-          Perkantoran, Industri, Gudang, Perumahan.
+          PT Bumi Mutiara Pratama berdiri sejak tahun 2018 dengan fokus utama pada bidang konstruksi—mulai dari pembangunan gedung perkantoran, fasilitas industri, gudang, hingga kawasan perumahan. Sejak awal, kami berkomitmen menghadirkan hasil kerja yang rapi, tepat waktu, dan memenuhi standar kualitas tertinggi.
         </p>
         <p class="mt-4 text-slate-500">
-          Kami percaya bahwa setiap perkembangan adalah bagian dari pertumbuhan.
-          Kami juga percaya bahwa fisik dan mentalitas dapat memberikan hasil
-          perkembangan yang terbaik.
+          Kepercayaan klien adalah fondasi kami. Karena itu, kejujuran dan transparansi selalu menjadi prinsip dalam setiap tahap proyek, mulai dari perencanaan, proses pembangunan, hingga serah terima. Kami percaya bahwa komunikasi yang jelas dan terbuka akan melahirkan kemitraan yang kokoh dan saling menguntungkan.
         </p>
         <p class="mt-4 text-slate-500">
-          Dari situ kami yakin bahwa seluruh inovasi dan ketulusan akan membuat
-          pembangunan berkelanjutan baik dalam produk, hubungan, layanan dan
-          keuntungan dalam skala global
+          Dengan pengalaman yang terus berkembang dan tim profesional yang berdedikasi, PT Bumi Mutiara Pratama senantiasa memberikan solusi konstruksi yang efisien, inovatif, dan memuaskan, sehingga setiap proyek bukan hanya selesai dengan baik, tetapi juga menjadi kebanggaan bersama.
         </p>
       </div>
     </div>
@@ -67,9 +62,7 @@
       </h3>
 
       <p class="mx-auto max-w-2xl text-slate-500">
-        Sebagian dari kita beranggapan bahwa kontraktor yang bagus, pasti
-        harganya lebih mahal. Kami adalah profesional dan ahli di bidangnya
-        dengan harga terjangkau.
+        Setiap proyek adalah cerita tentang kolaborasi, inovasi, dan kepercayaan. Berikut adalah beberapa hasil karya yang telah kami selesaikan untuk klien kami
       </p>
     </div>
     <!--end grid-->

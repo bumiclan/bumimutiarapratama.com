@@ -55,11 +55,11 @@
                       <span>bumimutiarapratama@gmail.com</span>
                     </a>
                     <a
-                      href="tel:+6282142221735"
+                      href="tel:+6282226115758"
                       class="flex items-center space-x-1 text-gray-300 duration-500 ease-in-out hover:text-gray-400"
                     >
                       <PhoneIcon class="h-6 w-6 text-white" />
-                      <span>082142221735</span>
+                      <span>082226115758</span>
                     </a>
                     <a
                       href="tel:+62315618880"
